@@ -1,0 +1,625 @@
+a {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: block;
+    float: left;
+    background-color: transparent;
+}
+
+.body {
+    background-color: transparent;
+    color: #dfd9c1;
+    font-size: 16px;
+}
+
+.body.text {
+    background-image: none;
+}
+
+.navmenu {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.navlink {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ad6f27;
+    font-weight: 400;
+}
+
+.navlink:hover {
+    text-decoration: none;
+}
+
+.navlink:focus {
+    color: #ad6f27;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.navlink.w--current {
+    color: #ad6f27;
+}
+
+.navlink.w--current:focus {
+    color: rgba(0, 0, 0, .69);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.slider {
+    display: block;
+    max-width: 1250px;
+    min-height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+    box-shadow: 0 0 6px 0 #5c4e15;
+}
+
+.slide1 {
+    background-image: url('../images/home-slide2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background-image: url('../images/home-slide1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 6px 0 #5c4e15;
+}
+
+.topbar-container {
+    height: 35px;
+}
+
+.topbar-right-social {
+    height: 35px;
+    float: right;
+}
+
+.slide3 {
+    background-image: url('../images/home-slide3.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.slide4 {
+    background-image: url('../images/home-slide4.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide5 {
+    background-image: url('../images/home-slide5.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-div {
+    padding-right: 0px;
+}
+
+.home-heading1 {
+    font-family: Merriweather, serif;
+    color: #fff15d;
+    font-size: 31px;
+    line-height: 33px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.main-section {
+    display: block;
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main-section.featured-artists {
+    background-color: rgba(0, 0, 0, .66);
+}
+
+.map-column {
+    text-align: center;
+}
+
+.main-row {
+    margin-top: 30px;
+}
+
+.home-page-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.map-link {
+    color: #fff15d;
+    font-size: 18px;
+}
+
+.bright-yellow {
+    color: #fff15d;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.footer-section {
+    display: block;
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 35px;
+    background-color: #dfd9c1;
+    color: #d7dec3;
+}
+
+.footer-container {
+    margin: 98px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.column-block {
+    margin-bottom: 20px;
+}
+
+.featured-column-container {
+    background-color: rgba(0, 0, 0, .56);
+}
+
+.featured-paragraph {
+    padding: 10px 20px;
+}
+
+.featured-para-datetime {
+    color: #fff15d;
+}
+
+.featured-row {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/body-background.jpg');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bottombar-container {
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.row {
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+
+.heading-underline-div {
+    height: 2px;
+    margin-bottom: 15px;
+    background-color: #fff15d;
+}
+
+.h3 {
+    color: #fff15d;
+    font-weight: 400;
+}
+
+.email-link {
+    color: #fff15d;
+}
+
+.form-success-message {
+    padding: 20px;
+    background-color: rgba(62, 172, 88, .72);
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-error-message {
+    background-color: transparent;
+    color: #f79494;
+}
+
+.table-note {
+    margin-top: 11px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.indent-10-div {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.submit-indent {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.submit-indent:hover {
+    border-radius: 5px;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.spacer-20 {
+    height: 20px;
+    background-color: transparent;
+}
+
+.tabs {
+}
+
+.facebook {
+    margin-top: 5px;
+    margin-right: 5px;
+    float: none;
+    border-radius: 3px;
+}
+
+.facebook:hover {
+    border-radius: 3px;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.topbar-div {
+    display: block;
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.facebook-linkblock {
+    display: block;
+    height: 35px;
+    float: right;
+}
+
+.mailchimp-form-wrapper {
+    height: 35px;
+}
+
+.mailchimp-form {
+    height: 35px;
+}
+
+.mailchimp-row {
+    height: 35px;
+}
+
+.mailchimp-field {
+    height: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.mailchimp-label {
+    color: #5c4e15;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.mailchimp-column {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mailchimp-submit {
+    height: 25px;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+
+.mailchimp-submit:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.mailchimp-success-container {
+    height: 35px;
+    background-color: transparent;
+}
+
+.mailchimp-success-message {
+    margin-top: -13px;
+    color: #5c4e15;
+}
+
+.mailchimp-error-message {
+    margin-top: -13px;
+    color: #ee1933;
+}
+
+.donate-button {
+    margin-top: 15px;
+}
+
+.faq {
+    overflow: hidden;
+}
+
+.topbar-left-mailchimp {
+    height: 35px;
+    float: left;
+}
+
+.faq-answer {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-submit {
+    border-radius: 5px;
+}
+
+.contact-submit:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.copyright-text {
+    color: #5c4e15;
+}
+
+.heading-page {
+    font-family: Merriweather, serif;
+    color: #fff15d;
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.heading-h2 {
+    font-family: Merriweather, serif;
+    color: #fff15d;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+@media (max-width: 991px)
+{
+    .body {
+        margin-top: -34px;
+    }
+
+    .navmenu {
+        font-size: 12px;
+    }
+
+    .navlink {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .slider {
+        min-height: 400px;
+    }
+
+    .header-section {
+        margin-top: 34px;
+    }
+
+    .main-section {
+        padding: 25px 20px;
+    }
+
+    .background {
+        background-image: url('../images/body-background.jpg');
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .bottombar-section {
+        background-color: rgba(0, 0, 0, .9);
+    }
+}
+
+@media (max-width: 767px)
+{
+    .navbar {
+        width: 100%;
+    }
+
+    .body {
+        margin-top: -47px;
+    }
+
+    .navmenu {
+        background-color: #dfd9c1;
+    }
+
+    .navlink {
+        text-align: center;
+    }
+
+    .navlink.w--current {
+        text-align: center;
+    }
+
+    .slider {
+        min-height: 300px;
+    }
+
+    .header-section {
+        margin-top: 47px;
+    }
+
+    .navbutton {
+        color: #5c4e15;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .main-section.featured-artists {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .nav-icon {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .facebook {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .mailchimp-field {
+        margin-left: -17px;
+    }
+}
+
+@media (max-width: 479px)
+{
+    .body {
+        margin-top: -58px;
+        background-attachment: fixed;
+    }
+
+    .header-section {
+        margin-top: 58px;
+    }
+
+    .main-section {
+        padding: 20px 12px;
+    }
+
+    .header-image-mobile {
+        box-shadow: 0 1px 13px 0 #000;
+    }
+
+    .featured-paragraph {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .facebook {
+        position: static;
+    }
+
+    .mailchimp-field {
+        width: 79px;
+        margin-left: -41px;
+    }
+
+    .mailchimp-label {
+        overflow: hidden;
+        width: 0px;
+    }
+
+    .mailchimp-submit {
+        margin-left: 50px;
+        padding-right: 5px;
+        padding-left: 4px;
+    }
+
+    .stay-in-touch-button {
+        overflow: hidden;
+        height: 25px;
+        margin-top: 5px;
+        margin-left: 6px;
+        float: left;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 9px;
+        font-weight: 400;
+    }
+
+    .stay-in-touch-mobile {
+        height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.left-10 {
+    padding-left: 0px;
+}
+
+.right-10 {
+}
+
+.right-10 {
+    padding-right: 0px;
+}
+
+.contact-form-height {
+    height: 650px;
+}
+
+@media (max-width:990px)
+{
+    .contact-form-height {
+        height: 600px;
+    }
+}
+
+@media (min-width:991px)
+{
+    .contact-form-height {
+        height: 500px;
+    }
+}
+
+.contest-tab:hover {
+    border: dotted 3px yellow;
+}
+
+.contest-tab:hover {
+}
+
+.contest-tab:hover {
+    border: dotted 3px yellow;
+}
+
+.hidden_row {
+    display: none;
+}
