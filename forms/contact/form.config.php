@@ -231,9 +231,9 @@ class Config {
     ],
     "autoResponse": {
         "subject": "Thank You for your contacting Happy Valley Fiddlers",
-        "template": "Dear {f1},\n\nThank you for contacting Happy Valley Fiddlers. Here is the copy of your data:\n\n{dataTable}\n\nSomeone will contact you shortly.\n\nBest Regards,\nTony Deal\n\n",
-        "replyTo": "tonyraydeal@gmail.com",
-        "replyToName": "Tony Deal"
+        "template": "Dear {f1},\n\nThank you for contacting Happy Valley Fiddlers. Here is the copy of your data:\n\n{dataTable}\n\nSomeone will contact you shortly.\n\nBest Regards,\nCathy McCoy Deal\n\n",
+        "replyTo": "cathy@caldwellarts.com",
+        "replyToName": "Cathy McCoy"
     }
 }
 <?php /**JSON_END**/
