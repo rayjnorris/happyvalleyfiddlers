@@ -34,7 +34,7 @@ class Config {
 {
     "formId": "jqueryform-2ef83b",
     "email": {
-        "to": "tonyraydeal@gmail.com",
+        "to": "cathy@caldwellarts.com",
         "cc": "jenniedeal@gmail.com",
         "bcc": "ray@rayjnorris.com",
         "subject": "HappyValleyFiddlers - Contact",

@@ -34,7 +34,7 @@ class Config {
 {
     "formId": "jqueryform-10965a",
     "email": {
-        "to": "tonyraydeal@gmail.com",
+        "to": "cathy@caldwellarts.com",
         "cc": "jenniedeal@gmail.com",
         "bcc": "ray@rayjnorris.com",
         "subject": "Band Competition Registration",
