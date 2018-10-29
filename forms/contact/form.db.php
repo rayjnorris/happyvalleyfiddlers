@@ -13,8 +13,8 @@ class Form2DB {
     private $db = array(
         'host'    => '127.0.0.1',
         'db'      => 'hvf',
-        'user'    => 'hvfadmin',
-        'pass'    => 'HvfAdmin!@#$',
+        'user'    => 'hvfdbadmin',
+        'pass'    => 'HvfDbAdmin!@#$',
         'charset' => 'utf8',    
     );
 
